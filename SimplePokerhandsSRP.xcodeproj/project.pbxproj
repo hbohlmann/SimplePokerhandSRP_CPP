@@ -6,8 +6,107 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		26BEAC731DE7235100C380B0 /* dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 26BEAC721DE7235100C380B0 /* dummy.c */; };
+		26BEAC7B1DE7236A00C380B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BEAC7A1DE7236A00C380B0 /* main.cpp */; };
+		26BEAC811DE7237900C380B0 /* libSimplePokerhandsSRP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BEAC6A1DE722B300C380B0 /* libSimplePokerhandsSRP.a */; };
+		26BEAC9E1DE7256E00C380B0 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BEAC911DE7255800C380B0 /* libgtest.a */; };
+		26BEACA01DE725E400C380B0 /* SimplePokerhandsEvaluatorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BEAC9F1DE725E400C380B0 /* SimplePokerhandsEvaluatorTest.cpp */; };
+		26BEACA31DE7270400C380B0 /* SimplePokerhandEvaluator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BEACA11DE7270400C380B0 /* SimplePokerhandEvaluator.cpp */; };
+		26BEACA41DE7270400C380B0 /* SimplePokerhandEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BEACA21DE7270400C380B0 /* SimplePokerhandEvaluator.h */; };
+		26BEACA71DE72F0600C380B0 /* StringHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BEACA51DE72F0600C380B0 /* StringHelper.cpp */; };
+		26BEACA81DE72F0600C380B0 /* StringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BEACA61DE72F0600C380B0 /* StringHelper.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26BEAC7F1DE7237400C380B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BEAC621DE722B300C380B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BEAC691DE722B300C380B0;
+			remoteInfo = SimplePokerhandsSRP;
+		};
+		26BEAC8E1DE7255800C380B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BEAC821DE7255800C380B0 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4539C8FF0EC27F6400A70F4C;
+			remoteInfo = "gtest-framework";
+		};
+		26BEAC901DE7255800C380B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BEAC821DE7255800C380B0 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C848FA101A209C0083642A;
+			remoteInfo = "gtest-static";
+		};
+		26BEAC921DE7255800C380B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BEAC821DE7255800C380B0 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C8490B101A217E0083642A;
+			remoteInfo = "gtest_main-static";
+		};
+		26BEAC941DE7255800C380B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BEAC821DE7255800C380B0 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40899F430FFA7184000B29AE;
+			remoteInfo = "gtest_unittest-framework";
+		};
+		26BEAC961DE7255800C380B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BEAC821DE7255800C380B0 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C84987101A36850083642A;
+			remoteInfo = "gtest_unittest-static";
+		};
+		26BEAC981DE7255800C380B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BEAC821DE7255800C380B0 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4089A0130FFACEFC000B29AE;
+			remoteInfo = "sample1_unittest-framework";
+		};
+		26BEAC9A1DE7255800C380B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BEAC821DE7255800C380B0 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C84997101A36A60083642A;
+			remoteInfo = "sample1_unittest-static";
+		};
+		26BEAC9C1DE7256A00C380B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26BEAC821DE7255800C380B0 /* gtest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C848F9101A209C0083642A;
+			remoteInfo = "gtest-static";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26BEAC761DE7236A00C380B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		26BEAC6A1DE722B300C380B0 /* libSimplePokerhandsSRP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimplePokerhandsSRP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BEAC721DE7235100C380B0 /* dummy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dummy.c; sourceTree = "<group>"; };
+		26BEAC781DE7236A00C380B0 /* UnitTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnitTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BEAC7A1DE7236A00C380B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		26BEAC821DE7255800C380B0 /* gtest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = gtest.xcodeproj; path = googletest/googletest/xcode/gtest.xcodeproj; sourceTree = "<group>"; };
+		26BEAC9F1DE725E400C380B0 /* SimplePokerhandsEvaluatorTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplePokerhandsEvaluatorTest.cpp; sourceTree = "<group>"; };
+		26BEACA11DE7270400C380B0 /* SimplePokerhandEvaluator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplePokerhandEvaluator.cpp; sourceTree = "<group>"; };
+		26BEACA21DE7270400C380B0 /* SimplePokerhandEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePokerhandEvaluator.h; sourceTree = "<group>"; };
+		26BEACA51DE72F0600C380B0 /* StringHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringHelper.cpp; sourceTree = "<group>"; };
+		26BEACA61DE72F0600C380B0 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -18,12 +117,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26BEAC751DE7236A00C380B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BEAC9E1DE7256E00C380B0 /* libgtest.a in Frameworks */,
+				26BEAC811DE7237900C380B0 /* libSimplePokerhandsSRP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		26BEAC611DE722B300C380B0 = {
 			isa = PBXGroup;
 			children = (
+				26BEAC711DE7231C00C380B0 /* src */,
+				26BEAC791DE7236A00C380B0 /* UnitTests */,
 				26BEAC6B1DE722B300C380B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -32,6 +142,43 @@
 			isa = PBXGroup;
 			children = (
 				26BEAC6A1DE722B300C380B0 /* libSimplePokerhandsSRP.a */,
+				26BEAC781DE7236A00C380B0 /* UnitTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26BEAC711DE7231C00C380B0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				26BEAC721DE7235100C380B0 /* dummy.c */,
+				26BEACA11DE7270400C380B0 /* SimplePokerhandEvaluator.cpp */,
+				26BEACA21DE7270400C380B0 /* SimplePokerhandEvaluator.h */,
+				26BEACA51DE72F0600C380B0 /* StringHelper.cpp */,
+				26BEACA61DE72F0600C380B0 /* StringHelper.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		26BEAC791DE7236A00C380B0 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				26BEAC821DE7255800C380B0 /* gtest.xcodeproj */,
+				26BEAC7A1DE7236A00C380B0 /* main.cpp */,
+				26BEAC9F1DE725E400C380B0 /* SimplePokerhandsEvaluatorTest.cpp */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		26BEAC831DE7255800C380B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26BEAC8F1DE7255800C380B0 /* gtest.framework */,
+				26BEAC911DE7255800C380B0 /* libgtest.a */,
+				26BEAC931DE7255800C380B0 /* libgtest_main.a */,
+				26BEAC951DE7255800C380B0 /* gtest_unittest-framework */,
+				26BEAC971DE7255800C380B0 /* gtest_unittest */,
+				26BEAC991DE7255800C380B0 /* sample1_unittest-framework */,
+				26BEAC9B1DE7255800C380B0 /* sample1_unittest-static */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -43,6 +190,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BEACA41DE7270400C380B0 /* SimplePokerhandEvaluator.h in Headers */,
+				26BEACA81DE72F0600C380B0 /* StringHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +215,25 @@
 			productReference = 26BEAC6A1DE722B300C380B0 /* libSimplePokerhandsSRP.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		26BEAC771DE7236A00C380B0 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BEAC7C1DE7236A00C380B0 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				26BEAC741DE7236A00C380B0 /* Sources */,
+				26BEAC751DE7236A00C380B0 /* Frameworks */,
+				26BEAC761DE7236A00C380B0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BEAC9D1DE7256A00C380B0 /* PBXTargetDependency */,
+				26BEAC801DE7237400C380B0 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 26BEAC781DE7236A00C380B0 /* UnitTests */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -76,6 +244,11 @@
 				ORGANIZATIONNAME = Home;
 				TargetAttributes = {
 					26BEAC691DE722B300C380B0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UDWCB532ZV;
+						ProvisioningStyle = Automatic;
+					};
+					26BEAC771DE7236A00C380B0 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = UDWCB532ZV;
 						ProvisioningStyle = Automatic;
@@ -92,22 +265,106 @@
 			mainGroup = 26BEAC611DE722B300C380B0;
 			productRefGroup = 26BEAC6B1DE722B300C380B0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 26BEAC831DE7255800C380B0 /* Products */;
+					ProjectRef = 26BEAC821DE7255800C380B0 /* gtest.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				26BEAC691DE722B300C380B0 /* SimplePokerhandsSRP */,
+				26BEAC771DE7236A00C380B0 /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		26BEAC8F1DE7255800C380B0 /* gtest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = gtest.framework;
+			remoteRef = 26BEAC8E1DE7255800C380B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26BEAC911DE7255800C380B0 /* libgtest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgtest.a;
+			remoteRef = 26BEAC901DE7255800C380B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26BEAC931DE7255800C380B0 /* libgtest_main.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgtest_main.a;
+			remoteRef = 26BEAC921DE7255800C380B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26BEAC951DE7255800C380B0 /* gtest_unittest-framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "gtest_unittest-framework";
+			remoteRef = 26BEAC941DE7255800C380B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26BEAC971DE7255800C380B0 /* gtest_unittest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = gtest_unittest;
+			remoteRef = 26BEAC961DE7255800C380B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26BEAC991DE7255800C380B0 /* sample1_unittest-framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "sample1_unittest-framework";
+			remoteRef = 26BEAC981DE7255800C380B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26BEAC9B1DE7255800C380B0 /* sample1_unittest-static */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "sample1_unittest-static";
+			remoteRef = 26BEAC9A1DE7255800C380B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26BEAC661DE722B300C380B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BEACA31DE7270400C380B0 /* SimplePokerhandEvaluator.cpp in Sources */,
+				26BEAC731DE7235100C380B0 /* dummy.c in Sources */,
+				26BEACA71DE72F0600C380B0 /* StringHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BEAC741DE7236A00C380B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BEACA01DE725E400C380B0 /* SimplePokerhandsEvaluatorTest.cpp in Sources */,
+				26BEAC7B1DE7236A00C380B0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26BEAC801DE7237400C380B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BEAC691DE722B300C380B0 /* SimplePokerhandsSRP */;
+			targetProxy = 26BEAC7F1DE7237400C380B0 /* PBXContainerItemProxy */;
+		};
+		26BEAC9D1DE7256A00C380B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "gtest-static";
+			targetProxy = 26BEAC9C1DE7256A00C380B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		26BEAC6C1DE722B300C380B0 /* Debug */ = {
@@ -150,6 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = $SRCROOT/UnitTests/googletest/googletest/include;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -191,6 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = $SRCROOT/UnitTests/googletest/googletest/include;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -215,6 +474,22 @@
 			};
 			name = Release;
 		};
+		26BEAC7D1DE7236A00C380B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UDWCB532ZV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26BEAC7E1DE7236A00C380B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UDWCB532ZV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -234,6 +509,16 @@
 				26BEAC701DE722B300C380B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BEAC7C1DE7236A00C380B0 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BEAC7D1DE7236A00C380B0 /* Debug */,
+				26BEAC7E1DE7236A00C380B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
