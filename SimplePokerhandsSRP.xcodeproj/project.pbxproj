@@ -16,6 +16,9 @@
 		26BEACA41DE7270400C380B0 /* SimplePokerhandEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BEACA21DE7270400C380B0 /* SimplePokerhandEvaluator.h */; };
 		26BEACA71DE72F0600C380B0 /* StringHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BEACA51DE72F0600C380B0 /* StringHelper.cpp */; };
 		26BEACA81DE72F0600C380B0 /* StringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BEACA61DE72F0600C380B0 /* StringHelper.h */; };
+		26D38E2D1DEC259400B375E8 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26D38E2B1DEC259400B375E8 /* Card.cpp */; };
+		26D38E2E1DEC259400B375E8 /* Card.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D38E2C1DEC259400B375E8 /* Card.h */; };
+		26D38E301DEC263B00B375E8 /* CardTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26D38E2F1DEC263B00B375E8 /* CardTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +110,9 @@
 		26BEACA21DE7270400C380B0 /* SimplePokerhandEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePokerhandEvaluator.h; sourceTree = "<group>"; };
 		26BEACA51DE72F0600C380B0 /* StringHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringHelper.cpp; sourceTree = "<group>"; };
 		26BEACA61DE72F0600C380B0 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		26D38E2B1DEC259400B375E8 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		26D38E2C1DEC259400B375E8 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		26D38E2F1DEC263B00B375E8 /* CardTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,8 @@
 				26BEACA21DE7270400C380B0 /* SimplePokerhandEvaluator.h */,
 				26BEACA51DE72F0600C380B0 /* StringHelper.cpp */,
 				26BEACA61DE72F0600C380B0 /* StringHelper.h */,
+				26D38E2B1DEC259400B375E8 /* Card.cpp */,
+				26D38E2C1DEC259400B375E8 /* Card.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -165,6 +173,7 @@
 				26BEAC821DE7255800C380B0 /* gtest.xcodeproj */,
 				26BEAC7A1DE7236A00C380B0 /* main.cpp */,
 				26BEAC9F1DE725E400C380B0 /* SimplePokerhandsEvaluatorTest.cpp */,
+				26D38E2F1DEC263B00B375E8 /* CardTest.cpp */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -191,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26BEACA41DE7270400C380B0 /* SimplePokerhandEvaluator.h in Headers */,
+				26D38E2E1DEC259400B375E8 /* Card.h in Headers */,
 				26BEACA81DE72F0600C380B0 /* StringHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +349,7 @@
 				26BEACA31DE7270400C380B0 /* SimplePokerhandEvaluator.cpp in Sources */,
 				26BEAC731DE7235100C380B0 /* dummy.c in Sources */,
 				26BEACA71DE72F0600C380B0 /* StringHelper.cpp in Sources */,
+				26D38E2D1DEC259400B375E8 /* Card.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +359,7 @@
 			files = (
 				26BEACA01DE725E400C380B0 /* SimplePokerhandsEvaluatorTest.cpp in Sources */,
 				26BEAC7B1DE7236A00C380B0 /* main.cpp in Sources */,
+				26D38E301DEC263B00B375E8 /* CardTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
